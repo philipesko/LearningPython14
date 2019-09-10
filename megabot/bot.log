@@ -92,3 +92,92 @@ TypeError: Object of type method is not JSON serializable
 2019-09-07 19:03:35,355 - INFO - Send answer to the client
 2019-09-07 19:06:06,872 - INFO - Бот запускается
 2019-09-07 19:06:14,096 - INFO - Receive message text from client:привет.
+<<<<<<< Updated upstream
+=======
+2019-09-08 17:02:33,379 - INFO - Send answer to the client
+2019-09-08 17:02:34,051 - INFO - Send answer to the client
+2019-09-08 17:02:34,864 - INFO - Send answer to the client
+2019-09-08 17:02:36,074 - INFO - Receive message text from client:  a,sh
+2019-09-08 17:03:11,484 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000001759768C1C8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot812960937:AAEXGUPi7Au90FxLNA0_Y947goTAzbXNS3A/getUpdates
+2019-09-08 17:04:07,325 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 15, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:04:20,381 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:05:32,130 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:05:52,338 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 15, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:17:53,012 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 15, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:17:59,071 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 15, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:18:07,385 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:18:17,490 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 15, in talk_to_me
+    user_text = update.message.text
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-08 17:18:26,027 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+>>>>>>> Stashed changes
