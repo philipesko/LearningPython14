@@ -1,0 +1,7 @@
+2019-09-10 10:30:14,049 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000001FFBC7C6448>: Failed to establish a new connection: 0x02: Connection not allowed by ruleset')': /bot812960937:AAEXGUPi7Au90FxLNA0_Y947goTAzbXNS3A/getMe
+2019-09-10 10:30:14,801 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000001FFBC7C6A48>: Failed to establish a new connection: 0x02: Connection not allowed by ruleset')': /bot812960937:AAEXGUPi7Au90FxLNA0_Y947goTAzbXNS3A/getMe
+2019-09-10 10:30:15,444 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000001FFBC7DD348>: Failed to establish a new connection: 0x02: Connection not allowed by ruleset')': /bot812960937:AAEXGUPi7Au90FxLNA0_Y947goTAzbXNS3A/getMe
+2019-09-10 10:32:51,162 - INFO - Receive message text from client:  Ntcn
+2019-09-10 10:33:07,219 - INFO - Receive message text from client:  \start
+2019-09-10 10:33:27,740 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-10 10:33:37,867 - WARNING - Exiting immediately!
