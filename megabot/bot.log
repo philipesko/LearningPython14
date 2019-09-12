@@ -181,3 +181,123 @@ Traceback (most recent call last):
     update.message.reply_text(text)
 AttributeError: 'CallbackContext' object has no attribute 'message'
 >>>>>>> Stashed changes
+2019-09-12 14:16:41,837 - INFO - Send answer to the client
+2019-09-12 14:16:48,001 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    planet = getattr(ephem, attribute_planet_name)(datetime.now())
+AttributeError: module 'ephem' has no attribute '/planet'
+2019-09-12 14:16:51,294 - INFO - Receive message text from client:  Mars
+2019-09-12 14:18:00,307 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    planet = getattr(ephem, attribute_planet_name)(datetime.now())
+AttributeError: module 'ephem' has no attribute '/planet'
+2019-09-12 14:18:05,790 - INFO - Receive message text from client:  Mars
+2019-09-12 14:20:00,206 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    planet = getattr(ephem, attribute_planet_name)(datetime.now())
+AttributeError: module 'ephem' has no attribute '/planet'
+2019-09-12 14:20:04,237 - INFO - Receive message text from client:  Mars
+2019-09-12 14:25:37,521 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    planet = getattr(ephem, arrt_planet_name(1))(datetime.now())
+TypeError: 'list' object is not callable
+2019-09-12 14:25:56,870 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    planet = getattr(ephem, arrt_planet_name(1))(datetime.now())
+TypeError: 'list' object is not callable
+2019-09-12 14:26:52,075 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    planet = getattr(ephem, arrt_planet_name(1))(datetime.now())
+TypeError: 'list' object is not callable
+2019-09-12 14:26:56,631 - INFO - Receive message text from client:  asd
+2019-09-12 17:50:03,191 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 23, in greet_planet
+    mybot.planets(bot, update)
+NameError: name 'mybot' is not defined
+2019-09-12 17:50:06,659 - INFO - Receive message text from client:  Mars
+2019-09-12 17:51:22,712 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 23, in greet_planet
+    update.planets(bot, update)
+AttributeError: 'Update' object has no attribute 'planets'
+2019-09-12 17:51:26,819 - INFO - Receive message text from client:  Mars
+2019-09-12 20:04:31,340 - INFO - Receive message text from client:  Mars
+2019-09-12 20:04:42,266 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    update.planets(bot, update)
+AttributeError: 'Update' object has no attribute 'planets'
+2019-09-12 20:04:45,689 - INFO - Receive message text from client:  Mars
+2019-09-12 20:06:36,306 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    update.planets(bot, update)
+AttributeError: 'Update' object has no attribute 'planets'
+2019-09-12 20:06:39,339 - INFO - Receive message text from client:  Mars
+2019-09-12 20:09:04,668 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    update.planets(bot, update)
+AttributeError: 'Update' object has no attribute 'planets'
+2019-09-12 20:09:07,415 - INFO - Receive message text from client:  Mars
+2019-09-12 20:10:43,971 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 11, in greet_planet
+    update.planets(bot, update)
+AttributeError: 'Update' object has no attribute 'planets'
+2019-09-12 20:10:46,367 - INFO - Receive message text from client:  Mars
