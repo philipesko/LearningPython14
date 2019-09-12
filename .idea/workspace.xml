@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c450a84-533b-4933-841e-e9c06ec2883c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson1/Compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/CompareStringToString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/Lesson1For.py" afterDir="false" />
+    <list default="true" id="5c450a84-533b-4933-841e-e9c06ec2883c" name="Default Changelist" comment="Home Mission 12/09/2019">
+      <change afterPath="$PROJECT_DIR$/lesson1/WhileMission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/sale.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/sale.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +30,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1QVALuWuE0buaudm1Qw8dhuisWG" />
@@ -41,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lesson1For">
+  <component name="RunManager" selected="Python.WhileMission">
     <configuration name="Compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython14" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="WhileMission" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython14" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/megabot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/megabot/bot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/WhileMission.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WhileMission" />
         <item itemvalue="Python.Lesson1For" />
         <item itemvalue="Python.CompareStringToString" />
         <item itemvalue="Python.Compare" />
         <item itemvalue="Python.sale" />
-        <item itemvalue="Python.bot" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +220,7 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="BEK_SORT_TYPE" value="1" />
               <option name="COLUMN_ORDER" />
             </State>
           </value>
