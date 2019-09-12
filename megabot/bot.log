@@ -301,3 +301,13 @@ Traceback (most recent call last):
     update.planets(bot, update)
 AttributeError: 'Update' object has no attribute 'planets'
 2019-09-12 20:10:46,367 - INFO - Receive message text from client:  Mars
+2019-09-12 20:29:13,567 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 14, in greet_planet
+    planet = getattr(ephem, arrt_planet_name[1])(datetime.now())
+IndexError: list index out of range
+2019-09-12 20:29:19,430 - INFO - Receive message text from client:  Mars

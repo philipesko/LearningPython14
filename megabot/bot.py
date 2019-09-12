@@ -7,13 +7,10 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=lo
 
 
 def greet_planet(bot, update):
-    update.message.reply_text('Please write name for planet!')
-    update.planets(bot, update)
-
-def planets (bot, update):
-    arrt_planet_name = update.message.text
+    receive_text = update.message.text
+    arrt_planet_name = receive_text.split(' ')
     print(arrt_planet_name)
-    planet = getattr(ephem, arrt_planet_name)(datetime.now())
+    planet = getattr(ephem, arrt_planet_name[1])(datetime.now())
     cons = ephem.constellation(planet)
     print(cons)
     update.message.reply_text(cons)
@@ -41,7 +38,7 @@ def main():
     dp.add_handler(CommandHandler('start', greet_user))
     dp.add_handler(MessageHandler(Filters.text, talk_to_me))
     dp.add_handler(CommandHandler('planet', greet_planet))
-    dp.add_handler(MessageHandler(Filters.text, planets))
+    #dp.add_handler(MessageHandler(Filters.text, planets))
 
 
     mybot.start_polling()

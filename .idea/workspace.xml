@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c450a84-533b-4933-841e-e9c06ec2883c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson1/Astronomic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/megabot/bot.log" beforeDir="false" afterPath="$PROJECT_DIR$/megabot/bot.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/megabot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/megabot/bot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568271340026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot.">
+      <created>1568308813255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568308813255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +284,7 @@
     <MESSAGE value="Test commit for last version TelegaBot" />
     <MESSAGE value="Home Mission 12/09/2019, 13/09/2019(While, Exeptions)" />
     <MESSAGE value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)" />
+    <MESSAGE value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot." />
   </component>
 </project>
