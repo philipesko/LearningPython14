@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c450a84-533b-4933-841e-e9c06ec2883c" name="Default Changelist" comment="Home Mission 12/09/2019">
-      <change afterPath="$PROJECT_DIR$/lesson1/WhileMission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5c450a84-533b-4933-841e-e9c06ec2883c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lesson1/sale.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/sale.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567845337339</updated>
     </task>
+    <task id="LOCAL-00001" summary="Home Mission 12/09/2019, 13/09/2019(While, Exeptions)">
+      <created>1568271017032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568271017032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +262,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test commit for last version TelegaBot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit for last version TelegaBot" />
+    <MESSAGE value="Home Mission 12/09/2019, 13/09/2019(While, Exeptions)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Mission 12/09/2019, 13/09/2019(While, Exeptions)" />
   </component>
 </project>
