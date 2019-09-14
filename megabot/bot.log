@@ -322,3 +322,180 @@ Traceback (most recent call last):
 IndexError: list index out of range
 2019-09-14 13:10:43,427 - INFO - Receive message text from client:  test
 2019-09-14 13:23:58,172 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-14 20:27:53,219 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000022508097E88>: Failed to establish a new connection: 0x02: Connection not allowed by ruleset')': /bot812960937:AAGPMxogcN_DkjSGtXLdWg6RkTPLMwtDOYU/getMe
+2019-09-14 20:27:53,586 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000225080B0508>: Failed to establish a new connection: 0x02: Connection not allowed by ruleset')': /bot812960937:AAGPMxogcN_DkjSGtXLdWg6RkTPLMwtDOYU/getMe
+2019-09-14 20:27:53,970 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000225080B0688>: Failed to establish a new connection: 0x02: Connection not allowed by ruleset')': /bot812960937:AAGPMxogcN_DkjSGtXLdWg6RkTPLMwtDOYU/getMe
+2019-09-14 20:29:05,382 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in talk_to_me
+    logging.info(f"User: {update.message.chat.first_name}, Chat id: {update.message.chat.id}, Message: {update.message.chat.text} ")
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:29:05,384 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in talk_to_me
+    logging.info(f"User: {update.message.chat.first_name}, Chat id: {update.message.chat.id}, Message: {update.message.chat.text} ")
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:29:14,880 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in talk_to_me
+    logging.info(f"User: {update.message.chat.first_name}, Chat id: {update.message.chat.id}, Message: {update.message.chat.text} ")
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:29:33,643 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in talk_to_me
+    logging.info(f"User: {update.message.chat.first_name}, Chat id: {update.message.chat.id}, Message: {update.message.chat.text} ")
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:29:35,678 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in talk_to_me
+    logging.info(f"User: {update.message.chat.first_name}, Chat id: {update.message.chat.id}, Message: {update.message.chat.text} ")
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:33:51,262 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 51, in talk_to_me
+    reply_text_for_user = f"Hello {update.message.chat.first_name}, you wrote next message: {update.message.chat.text}"
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-14 20:33:56,788 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 41, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-14 20:34:03,624 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 51, in talk_to_me
+    reply_text_for_user = f"Hello {update.message.chat.first_name}, you wrote next message: {update.message.chat.text}"
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-14 20:34:36,991 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 51, in talk_to_me
+    reply_text_for_user = f"Hello {update.message.chat.first_name}, you wrote next message: {update.message.chat.text}"
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-14 20:34:43,959 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 41, in greet_user
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+2019-09-14 20:35:08,121 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 51, in talk_to_me
+    reply_text_for_user = f"Hello {update.message.chat.first_name}, you wrote next message: {update.message.chat.text}"
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:35:14,565 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 51, in talk_to_me
+    reply_text_for_user = f"Hello {update.message.chat.first_name}, you wrote next message: {update.message.chat.text}"
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:35:18,265 - INFO - Send answer to the client
+2019-09-14 20:36:38,815 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 51, in talk_to_me
+    reply_text_for_user = f"Hello {update.message.chat.first_name}, you wrote next message: {update.message.chat.text}"
+AttributeError: 'Chat' object has no attribute 'text'
+2019-09-14 20:38:05,483 - INFO - User: Nikita, Chat id: 276693710, Message: where my messages? 
+2019-09-14 20:38:11,355 - INFO - User: Nikita, Chat id: 276693710, Message: Yes 
+2019-09-14 20:38:14,880 - INFO - User: Nikita, Chat id: 276693710, Message: beatch 
+2019-09-14 20:38:26,247 - INFO - User: Nikita, Chat id: 276693710, Message: give me my /minion 
+2019-09-14 20:57:36,735 - INFO - User: Nikita, Chat id: 276693710, Message: Hello 
+2019-09-14 21:04:02,531 - INFO - User: Nikita, Chat id: 276693710, Message: hi 
+2019-09-14 21:04:14,559 - INFO - User: Nikita, Chat id: 276693710, Message: iiha 
+2019-09-14 21:31:22,698 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in greet_user
+    [contact_button, location_button]
+TypeError: list indices must be integers or slices, not tuple
+2019-09-14 21:31:35,152 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 50, in greet_user
+    [contact_button, location_button]
+TypeError: list indices must be integers or slices, not tuple
+2019-09-14 21:40:52,883 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 73, in get_contact
+    update.message.reply_text(f"Thanks! {change_avatar(user_data)}")
+TypeError: change_avatar() missing 2 required positional arguments: 'update' and 'user_data'
+2019-09-14 21:41:17,678 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 73, in get_contact
+    update.message.reply_text(f"Thanks! {change_avatar(user_data)}")
+TypeError: change_avatar() missing 2 required positional arguments: 'update' and 'user_data'
+2019-09-14 21:42:34,021 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\philippn\AppData\Local\Programs\Python\Python37\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Users/philippn/PycharmProjects/LearningPython14/megabot/bot.py", line 73, in get_contact
+    update.message.reply_text(f"Thanks! {change_avatar(user_data)}")
+TypeError: change_avatar() missing 2 required positional arguments: 'update' and 'user_data'
+2019-09-14 21:53:31,497 - INFO - User: Nikita, Chat id: 276693710, Message: HI 
+2019-09-14 21:54:42,598 - INFO - User: Nikita, Chat id: 276693710, Message: Hi 
+2019-09-14 21:55:10,347 - INFO - User: Nikita, Chat id: 276693710, Message: Hi 
+2019-09-14 21:56:34,210 - INFO - User: Nikita, Chat id: 276693710, Message: hi 
