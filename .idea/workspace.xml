@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c450a84-533b-4933-841e-e9c06ec2883c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson1/Compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/CompareStringToString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/Lesson1For.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/sale.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/sale.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +26,15 @@
         <option value="Nikita Philippov &lt;philipesko@yandex.ru&gt;" />
       </list>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1QVALuWuE0buaudm1Qw8dhuisWG" />
@@ -41,6 +44,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -55,8 +60,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lesson1For">
-    <configuration name="Compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bot">
+    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython14" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leeson_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/Compare.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\philippn\PycharmProjects\LearningPython14\Leeson_web\server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CompareStringToString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="WorkWithCSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython14" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,32 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/CompareStringToString.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Lesson1For" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearningPython14" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/Lesson1For.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson2/WorkWithCSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearningPython14" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +132,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leeson_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/sale.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leeson_web/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearningPython14" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leeson_web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leeson_web/weather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Lesson1For" />
-        <item itemvalue="Python.CompareStringToString" />
-        <item itemvalue="Python.Compare" />
-        <item itemvalue="Python.sale" />
         <item itemvalue="Python.bot" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.weather" />
+        <item itemvalue="Python.Server" />
+        <item itemvalue="Python.WorkWithCSV" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +190,56 @@
       <option name="presentableId" value="Default" />
       <updated>1567845337339</updated>
     </task>
+    <task id="LOCAL-00001" summary="Home Mission 12/09/2019, 13/09/2019(While, Exeptions)">
+      <created>1568271017032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568271017032</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)">
+      <created>1568271340026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568271340026</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot.">
+      <created>1568308813255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568308813255</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot. Add /planet">
+      <created>1568309466487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568309466487</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot. Add /planet">
+      <created>1568314614493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568314614493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Home work for 2 week - complete.&#10;Track &quot;Web&quot; - complete">
+      <created>1568477964701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568477964701</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Track &quot;Telegram bot&quot; - complete">
+      <created>1568487610482</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568487610482</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +275,7 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="BEK_SORT_TYPE" value="1" />
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -255,6 +311,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test commit for last version TelegaBot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit for last version TelegaBot" />
+    <MESSAGE value="Home Mission 12/09/2019, 13/09/2019(While, Exeptions)" />
+    <MESSAGE value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)" />
+    <MESSAGE value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot." />
+    <MESSAGE value="Home Mission 12/09/2019, 13/09/2019&#10;(While, Exeptions\mission1\mission2)&#10;Update telebot. Add /planet" />
+    <MESSAGE value="Home work for 2 week - complete.&#10;Track &quot;Web&quot; - complete" />
+    <MESSAGE value="Track &quot;Telegram bot&quot; - complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Track &quot;Telegram bot&quot; - complete" />
   </component>
 </project>
