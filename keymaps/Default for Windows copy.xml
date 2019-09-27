@@ -1,0 +1,6 @@
+<keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Run" />
+</keymap>
