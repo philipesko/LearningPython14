@@ -2,5 +2,10 @@
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="EditorSelectWord" />
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Run" />
 </keymap>
